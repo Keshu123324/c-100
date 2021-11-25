@@ -8,7 +8,7 @@ class ATM(object):
 
     def balanceEnquiry(self):
         print("Balance enquiry")
-
-    mybank=("1234","1234")
-    print(mybank.cashWithdraw())
-    print(mybank.balanceEnquiry())
+        
+mybank=ATM("1234","1234")
+print(mybank.cashWithdraw())
+print(mybank.balanceEnquiry())
